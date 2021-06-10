@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contador</title>
+    <link
+      rel="sortcut icon"
+      href="Logo_branca_traco.png"
+      type="image/x-icon"
+    />
+    <script type="text/javascript" src="jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="css.css" />
+    <script type="text/javascript" src="js.js"></script>
+  </head>
+  <body>
+    <section id="pessoas">
+      <h1>Pessoas</h1>
+      <div class="grid_pessoas">
+        <div>
+          <button onclick="contador(-1, 'Bianca')">-</button>Bianca:
+          <span id="Bianca"> 0 </span
+          ><button onclick="contador(1, 'Bianca')">+</button>
+        </div>
+        <div>
+          <button onclick="contador(-1, 'Bonette')">-</button>Bonette:
+          <span id="Bonette"> 0 </span
+          ><button onclick="contador(1, 'Bonette')">+</button>
+        </div>
+        <div>
+          <button onclick="contador(-1, 'Bruna')">-</button>Bruna:
+          <span id="Bruna"> 0 </span
+          ><button onclick="contador(1, 'Bruna')">+</button>
+        </div>
+        <div>
+          <button onclick="contador(-1, 'Cristian')">-</button>Cristian:
+          <span id="Cristian"> 0 </span
+          ><button onclick="contador(1, 'Cristian')">+</button>
+        </div>
+        <div>
+          <button onclick="contador(-1, 'Danilo')">-</button>Danilo:
+          <span id="Danilo"> 0 </span
+          ><button onclick="contador(1, 'Danilo')">+</button>
+        </div>
+        <div>
+          <button onclick="contador(-1, 'Fernanda')">-</button>Fernanda:
+          <span id="Fernanda"> 0 </span
+          ><button onclick="contador(1, 'Fernanda')">+</button>
+        </div>
+        <div>
+          <button onclick="contador(-1, 'Francisco')">-</button>Francisco:
+          <span id="Francisco"> 0 </span
+          ><button onclick="contador(1, 'Francisco')">+</button>
+        </div>
+        <div>
+          <button onclick="contador(-1, 'Gabriel')">-</button>Gabriel:
+          <span id="Gabriel"> 0 </span
+          ><button onclick="contador(1, 'Gabriel')">+</button>
+        </div>
+        <div>
+          <button onclick="contador(-1, 'Hadzic')">-</button>Hadzic:
+          <span id="Hadzic"> 0 </span
+          ><button onclick="contador(1, 'Hadzic')">+</button>
+        </div>
+        <div>
+          <button onclick="contador(-1, 'João')">-</button>João:
+          <span id="João"> 0 </span
+          ><button onclick="contador(1, 'João')">+</button>
+        </div>
+        <div>
+          <button onclick="contador(-1, 'Lima')">-</button>Lima:
+          <span id="Lima"> 0 </span
+          ><button onclick="contador(1, 'Lima')">+</button>
+        </div>
+        <div>
+          <button onclick="contador(-1, 'Maissa')">-</button>Maissa:
+          <span id="Maissa"> 0 </span
+          ><button onclick="contador(1, 'Maissa')">+</button>
+        </div>
+        <div>
+          <button onclick="contador(-1, 'Marcus')">-</button>Marcus:
+          <span id="Marcus"> 0 </span
+          ><button onclick="contador(1, 'Marcus')">+</button>
+        </div>
+        <div>
+          <button onclick="contador(-1, 'Natália')">-</button>Natália:
+          <span id="Natália"> 0 </span
+          ><button onclick="contador(1, 'Natália')">+</button>
+        </div>
+        <div>
+          <button onclick="contador(-1, 'Thalles')">-</button>Thalles:
+          <span id="Thalles"> 0 </span
+          ><button onclick="contador(1, 'Thalles')">+</button>
+        </div>
+        <div>
+          <button onclick="contador(-1, 'Theusitos')">-</button>Theusitos:<span
+            id="Theusitos"
+          >
+            0
+          </span>
+          <button onclick="contador(1, 'Theusitos')">+</button>
+        </div>
+        <div>
+          <button onclick="contador(-1, 'Vinicius')">-</button>Vinicius:
+          <span id="Vinicius"> 0 </span
+          ><button onclick="contador(1, 'Vinicius')">+</button>
+        </div>
+        <div>
+          <button onclick="contador(-1, 'Vitor')">-</button>Vitor:
+          <span id="Vitor"> 0 </span
+          ><button onclick="contador(1, 'Vitor')">+</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="grupos">
+      <h1>Grupos</h1>
+      <div class="grid_grupo">
+        <div class="grid_grupo1">
+          <h1>Grupo 1</h1>
+          <div>
+            <button onclick="contadorgrupo(-10, 'Grupo1', 1)">-10</button>
+            <button onclick="contadorgrupo(-5, 'Grupo1', 1)">-5</button>
+            <button onclick="contadorgrupo(-3, 'Grupo1', 1)">-3</button>
+          </div>
+          <div style="padding: 4% 0;">Grupo 1: <span id="Grupo1"> 0 </span></div>
+          <div>
+            <button onclick="contadorgrupo(3, 'Grupo1', 1)">+3</button>
+            <button onclick="contadorgrupo(5, 'Grupo1', 1)">+5</button>
+            <button onclick="contadorgrupo(10, 'Grupo1', 1)">+10</button>
+          </div>
+        </div>
+
+        <div class="grid_grupo1">
+          <h1>Grupo 2</h1>
+          <div>
+            <button onclick="contadorgrupo(-10, 'Grupo2', 2)">-10</button>
+            <button onclick="contadorgrupo(-5, 'Grupo2', 2)">-5</button>
+            <button onclick="contadorgrupo(-3, 'Grupo2', 2)">-3</button>
+          </div>
+          <div style="padding: 4% 0;">Grupo 2: <span id="Grupo2"> 0 </span></div>
+          <div>
+            <button onclick="contadorgrupo(3, 'Grupo2', 2)">+3</button>
+            <button onclick="contadorgrupo(5, 'Grupo2', 2)">+5</button>
+            <button onclick="contadorgrupo(10, 'Grupo2', 2)">+10</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
